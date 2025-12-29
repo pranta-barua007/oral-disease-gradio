@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir gradio ultralytics pillow
 EXPOSE 7860
 ENV GRADIO_SERVER_NAME="0.0.0.0"
 
-CMD ["python", "main.py"]
+CMD ["python", "app.py"]
